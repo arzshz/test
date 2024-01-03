@@ -1,12 +1,10 @@
 import requests
 
 def test_api_responses():
-    # URL های وب سرویس ها
     flask_url = "http://localhost:5000"
     django_url = "http://localhost:8000"
     fastapi_url = "http://localhost:7000"
-
-    # ورودی‌های مورد نظر
+    
     payloads = [{"input": "test1"}, {"input": "test2"}, {"input": "test3"}]
 
     for payload in payloads:
